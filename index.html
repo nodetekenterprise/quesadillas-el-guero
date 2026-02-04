@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Quesadillas el Guero</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <!-- <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Career</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Terms</a></li>
+                    <li class="breadcrumb-item"><a class="small text-light" href="#">Privacy</a></li>
+                </ol>
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn-lg-square text-primary pe-0" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+        <!-- <h1 class="text-primary m-0"></h1> -->
+        <img style="width: 12rem;" src="img/logo_6.png" alt="" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav mx-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Inicio</a>
+          <a href="about.html" class="nav-item nav-link">Acerca de nosotros</a>
+          <!-- <a href="service.html" class="nav-item nav-link">Servicios</a> -->
+          <a href="product.html" class="nav-item nav-link">Menú</a>
+          <a href="contact.html" class="nav-item nav-link">Contacto</a>
+        </div>
+        <div class="d-none d-lg-flex">
+          <div
+            class="flex-shrink-0 btn-lg-square border border-light rounded-circle"
+          >
+            <a
+              class="fa fa-phone text-primary"
+              href="https://api.whatsapp.com/send/?phone=529611733819&text&type=phone_number&app_absent=0"
+            ></a>
+          </div>
+          <div class="ps-3">
+            <small class="text-primary mb-0">Llamanos</small>
+            <p class="text-light fs-5 mb-0">+52 961-611-3503</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+      <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/home.png" alt="" />
+          <div class="owl-carousel-inner">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-lg-8">
+                  <p class="text-primary text-uppercase fw-bold mb-2">
+                    // QUESADILLAS DE MAIZ, GRINGAS TORTAS Y ALGO MAS
+                  </p>
+                  <h1 class="display-1 text-light mb-4 animated slideInDown">
+                    Quesadillas El Guero
+                  </h1>
+                  <p class="text-light fs-5 mb-4 pb-3">
+                    Una tradicion de mas de , ¡Pidelas en Caliente!
+                  </p>
+                  <a
+                    href="product.html"
+                    class="btn btn-primary rounded-pill py-3 px-5"
+                    >Menú</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="owl-carousel-item position-relative">
+          <img class="img-fluid" src="img/home-2.png" alt="" />
+          <div class="owl-carousel-inner">
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-lg-8">
+                  <p class="text-primary text-uppercase fw-bold mb-2">
+                    // QUESADILLAS DE MAIZ, GRINGAS TORTAS Y ALGO MAS
+                  </p>
+                  <h1 class="display-1 text-light mb-4 animated slideInDown">
+                    Quesadillas El Guero
+                  </h1>
+                  <p class="text-light fs-5 mb-4 pb-3">
+                    Una tradicion de mas de , ¡Pidelas en Caliente!
+                  </p>
+                  <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5"
+                    >Acerca de Nosotros</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Facts Start -->
+    <!-- <div class="container-xxl py-6">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="fact-item bg-light rounded text-center h-100 p-5">
+              <i class="fa fa-certificate fa-4x text-primary mb-4"></i>
+              <p class="mb-2">Years Experience</p>
+              <h1 class="display-5 mb-0" data-toggle="counter-up">50</h1>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.3s">
+            <div class="fact-item bg-light rounded text-center h-100 p-5">
+              <i class="fa fa-users fa-4x text-primary mb-4"></i>
+              <p class="mb-2">Skilled Professionals</p>
+              <h1 class="display-5 mb-0" data-toggle="counter-up">175</h1>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.5s">
+            <div class="fact-item bg-light rounded text-center h-100 p-5">
+              <i class="fa fa-bread-slice fa-4x text-primary mb-4"></i>
+              <p class="mb-2">Total Products</p>
+              <h1 class="display-5 mb-0" data-toggle="counter-up">135</h1>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-delay="0.7s">
+            <div class="fact-item bg-light rounded text-center h-100 p-5">
+              <i class="fa fa-cart-plus fa-4x text-primary mb-4"></i>
+              <p class="mb-2">Order Everyday</p>
+              <h1 class="display-5 mb-0" data-toggle="counter-up">9357</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Facts End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-6">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row img-twice position-relative h-100">
+              <div class="col-6">
+                <img class="img-fluid rounded" src="img/producto_1.jpg" alt="" />
+              </div>
+              <div class="col-6 align-self-end">
+                <img class="img-fluid rounded" src="img/menu.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="h-100">
+              <p class="text-primary text-uppercase mb-2">
+                // Acerca de Nosotros
+              </p>
+              <h1 class="display-6 mb-4">
+                Cada quesadilla que preparamos nace desde el corazón.
+              </h1>
+              <p>
+                En nuestro restaurante creemos que la comida no solo alimenta,
+                también transmite emociones. Por eso cada quesadilla que
+                servimos está hecha con ingredientes frescos, seleccionados con
+                cuidado, y con la dedicación de quienes disfrutan cocinar para
+                los demás. Desde la tortilla dorada al punto exacto, hasta el
+                relleno jugoso y lleno de sabor, cada detalle refleja nuestra
+                pasión por compartir momentos auténticos alrededor de la mesa.
+              </p>
+              <p>
+                Queremos que cada visita sea más que una comida: que sea una
+                experiencia que te haga sentir como en casa. Aquí no solo
+                servimos quesadillas, compartimos tradición, cariño y el
+                esfuerzo de un equipo que cocina con el alma. Porque cuando algo
+                se hace desde el corazón, se nota en el sabor, en la calidez del
+                servicio y en la sonrisa de quienes lo disfrutan.
+              </p>
+              <div class="row g-2 mb-4">
+                <div class="col-sm-6">
+                  <i class="fa fa-check text-primary me-2"></i>Calidad de
+                  productos
+                </div>
+                <div class="col-sm-6">
+                  <i class="fa fa-check text-primary me-2"></i>Disponible en
+                  delivery Apps
+                </div>
+                <div class="col-sm-6">
+                  <i class="fa fa-check text-primary me-2"></i>Servicio a
+                  domicilio
+                </div>
+              </div>
+              <a
+                class="btn btn-primary rounded-pill py-3 px-5"
+                href="about.html"
+                >Leer mas</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Product Start -->
+    <div class="container-xxl bg-light my-6 py-6 pt-0">
+      <div class="container">
+        <div
+          class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-6">
+              <h1 class="display-4 text-light mb-0">
+                El mejor sabor de quesadillas, tortas y gringas en tu ciudad
+              </h1>
+            </div>
+            <div class="col-lg-6 text-lg-end">
+              <div class="d-inline-flex align-items-center text-start">
+                <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
+                <div class="ms-4">
+                  <p class="fs-5 fw-bold mb-0">Llamanos</p>
+                  <p class="fs-1 fw-bold mb-0">+52 961-611-3503</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="text-primary text-uppercase mb-2">// Menu</p>
+          <h1 class="display-6 mb-4">Explora todo lo que tenemos para ti</h1>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div
+              class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+            >
+              <div class="text-center p-4">
+                <div
+                  class="d-inline-block border border-primary rounded-pill px-3 mb-3"
+                >
+                  $60 - $70
+                </div>
+                <h3 class="mb-3">Quesadillas</h3>
+                <span
+                  >Quesadillas hechas con el corazón, llenas de sabor y
+                  tradición.”</span
+                >
+              </div>
+              <div class="position-relative mt-auto">
+                <img class="img-fluid" src="img/producto_1.jpg" alt="" />
+                <div class="product-overlay">
+                  <a
+                    class="btn btn-lg-square btn-outline-light rounded-circle"
+                    href=""
+                    ><i class="fa fa-eye text-primary"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div
+              class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+            >
+              <div class="text-center p-4">
+                <div
+                  class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
+                >
+                  $65 - $200
+                </div>
+                <h3 class="mb-3">Antojitos</h3>
+                <span
+                  >El sabor casero que convierte cualquier momento en
+                  especial.</span
+                >
+              </div>
+              <div class="position-relative mt-auto">
+                <img class="img-fluid" src="img/producto_3.jpeg" alt="" />
+                <div class="product-overlay">
+                  <a
+                    class="btn btn-lg-square btn-outline-light rounded-circle"
+                    href=""
+                    ><i class="fa fa-eye text-primary"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div
+              class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100"
+            >
+              <div class="text-center p-4">
+                <div
+                  class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3"
+                >
+                  $25
+                </div>
+                <h4 class="mb-3">Bebidas</h4>
+                <span
+                  >Acompaña tu alimentos con nuestras bebidas llenas de energía
+                  y sabor.</span
+                >
+              </div>
+              <div class="position-relative mt-auto">
+                <img class="img-fluid" src="img/producto_4.jpeg" alt="" />
+                <div class="product-overlay">
+                  <a
+                    class="btn btn-lg-square btn-outline-light rounded-circle"
+                    href=""
+                    ><i class="fa fa-eye text-primary"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Product End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-6">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+            <p class="text-primary text-uppercase mb-2">
+              // Nuestros servicios
+            </p>
+            <h1 class="display-6 mb-4">¿Quet te ofrecemos?</h1>
+            <p class="mb-5">
+              En Quesadillas el Güero no solo cocinamos, también creamos
+              experiencias. Te ofrecemos quesadillas tradicionales y creativas,
+              tortas llenas de sabor y gringas irresistibles, todas preparadas
+              con ingredientes frescos y el toque casero que nos distingue.
+            </p>
+            <div class="row gy-5 gx-4">
+              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
+                  >
+                    <i class="fa fa-bread-slice text-white"></i>
+                  </div>
+                  <h5 class="mb-0">Productos de Calidad</h5>
+                </div>
+                <span>
+                  Ofrecemos quesadillas, tortas y gringas elaboradas con
+                  ingredientes frescos y seleccionados cuidadosaments</span
+                >
+              </div>
+              <!-- <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
+                  >
+                    <i class="fa fa-birthday-cake text-white"></i>
+                  </div>
+                  <h5 class="mb-0">Custom Products</h5>
+                </div>
+                <span
+                  >Magna sea eos sit dolor, ipsum amet ipsum lorem diam
+                  eos</span
+                >
+              </div> -->
+              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
+                  >
+                    <i class="fa fa-cart-plus text-white"></i>
+                  </div>
+                  <h5 class="mb-0">Delivery Apps</h5>
+                </div>
+                <span
+                  >Haz tu pedido fácil y rápido desde tu celular, Didi o uber
+                  con su tienda en línea te permite elegir nuestros productos y
+                  recibe confirmación inmediata.</span
+                >
+              </div>
+              <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
+                <div class="d-flex align-items-center mb-3">
+                  <div
+                    class="flex-shrink-0 btn-square bg-primary rounded-circle me-3"
+                  >
+                    <i class="fa fa-truck text-white"></i>
+                  </div>
+                  <h5 class="mb-0">Envio a domicilio</h5>
+                </div>
+                <span
+                  >Disfruta nuestras quesadillas, tortas y gringas sin salir de
+                  casa. Con nuestro servicio a domicilio, el sabor llega directo
+                  a tu puerta, siempre fresco y caliente.</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="row img-twice position-relative h-100">
+              <div class="col-6">
+                <img class="img-fluid rounded" src="img/producto_1.jpg" alt="" />
+              </div>
+              <div class="col-6 align-self-end">
+                <img class="img-fluid rounded" src="img/producto_6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-6">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="text-primary text-uppercase mb-2">// Sucursales</p>
+          <h1 class="display-6 mb-4">
+            Nuestras sucursales, tu punto de sabor.
+          </h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item text-center rounded overflow-hidden">
+              <!-- Mapa en lugar de imagen -->
+
+              <div
+                class="map-container"
+                style="
+                  position: relative;
+                  width: 100%;
+                  height: 250px;
+                  overflow: hidden;
+                "
+              >
+                <iframe
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                  "
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.610990822928!2d-93.1418347128418!3d16.756626500000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd8f0b66922fb%3A0x62ebb38aecbec788!2sQuesadillas%20El%20G%C3%BCero%20Bicentenario!5e0!3m2!1ses!2smx!4v1768321083175!5m2!1ses!2smx"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+
+              <div class="team-text">
+                <div class="team-title">
+                  <h5>Bicentenario</h5>
+                  <span>961-611-3503</span>
+                </div>
+                <div class="team-social">
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item text-center rounded overflow-hidden">
+              <!-- Mapa en lugar de imagen -->
+              <div
+                class="map-container"
+                style="
+                  position: relative;
+                  width: 100%;
+                  height: 250px;
+                  overflow: hidden;
+                "
+              >
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.610990822928!2d-93.1418347128418!3d16.756626500000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd89ecf8fc24d%3A0x7144cd0ccb47e7ee!2sQuesadillas%20El%20G%C3%BCero%20Marimba!5e0!3m2!1ses!2smx!4v1768320085348!5m2!1ses!2smx"
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                  "
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+
+              <div class="team-text">
+                <div class="team-title">
+                  <h5>Marimba</h5>
+                  <span>961-611-3503</span>
+                </div>
+                <div class="team-social">
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item text-center rounded overflow-hidden">
+              <!-- Mapa en lugar de imagen -->
+              <div
+                class="map-container"
+                style="
+                  position: relative;
+                  width: 100%;
+                  height: 250px;
+                  overflow: hidden;
+                "
+              >
+                <iframe
+                  style="
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                  "
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.96298163623!2d-93.10838501284181!3d16.752242799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ed278dbaf6b053%3A0xce9d5c683b88b139!2sQuesadillas%20el%20g%C3%BCero!5e0!3m2!1ses!2smx!4v1768321321148!5m2!1ses!2smx"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                >
+                </iframe>
+              </div>
+
+              <div class="team-text">
+                <div class="team-title">
+                  <h5>Las Palmas</h5>
+                  <span>961-150-4228</span>
+                </div>
+                <div class="team-social">
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="btn btn-square btn-light rounded-circle" href="">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-xxl bg-light my-6 py-6 pb-0">
+      <div class="container">
+        <div
+          class="text-center mx-auto mb-5 wow fadeInUp"
+          data-wow-delay="0.1s"
+          style="max-width: 500px"
+        >
+          <p class="text-primary text-uppercase mb-2">// Client's Review</p>
+          <h1 class="display-6 mb-4">More Than 20000+ Customers Trusted Us</h1>
+        </div>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="testimonial-item bg-white rounded p-4">
+            <div class="d-flex align-items-center mb-4">
+              <img
+                class="flex-shrink-0 rounded-circle border p-1"
+                src="img/testimonial-1.jpg"
+                alt=""
+              />
+              <div class="ms-4">
+                <h5 class="mb-1">Client Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+            <p class="mb-0">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+              amet diam et eos. Clita erat ipsum et lorem et sit.
+            </p>
+          </div>
+          <div class="testimonial-item bg-white rounded p-4">
+            <div class="d-flex align-items-center mb-4">
+              <img
+                class="flex-shrink-0 rounded-circle border p-1"
+                src="img/testimonial-2.jpg"
+                alt=""
+              />
+              <div class="ms-4">
+                <h5 class="mb-1">Client Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+            <p class="mb-0">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+              amet diam et eos. Clita erat ipsum et lorem et sit.
+            </p>
+          </div>
+          <div class="testimonial-item bg-white rounded p-4">
+            <div class="d-flex align-items-center mb-4">
+              <img
+                class="flex-shrink-0 rounded-circle border p-1"
+                src="img/testimonial-3.jpg"
+                alt=""
+              />
+              <div class="ms-4">
+                <h5 class="mb-1">Client Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+            <p class="mb-0">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+              amet diam et eos. Clita erat ipsum et lorem et sit.
+            </p>
+          </div>
+          <div class="testimonial-item bg-white rounded p-4">
+            <div class="d-flex align-items-center mb-4">
+              <img
+                class="flex-shrink-0 rounded-circle border p-1"
+                src="img/testimonial-4.jpg"
+                alt=""
+              />
+              <div class="ms-4">
+                <h5 class="mb-1">Client Name</h5>
+                <span>Profession</span>
+              </div>
+            </div>
+            <p class="mb-0">
+              Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
+              amet diam et eos. Clita erat ipsum et lorem et sit.
+            </p>
+          </div>
+        </div>
+        <div
+          class="bg-primary text-light rounded-top p-5 my-6 mb-0 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <h1 class="display-4 text-light mb-0">
+                Subscribe Our Newsletter
+              </h1>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <div class="position-relative">
+                <input
+                  class="form-control bg-transparent border-light w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Your email"
+                />
+                <button
+                  type="button"
+                  class="btn btn-dark py-2 px-3 position-absolute top-0 end-0 mt-2 me-2"
+                >
+                  SignUp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Sucursal Matriz</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Av. 2a. Nte. Pte. 922D, Guadalupe, 29000 Tuxtla Gutiérrez, Chis.
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>+52 9616113503
+            </p>
+            <!-- <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@example.com
+            </p> -->
+            <div class="d-flex pt-2">
+              <!-- <a
+                class="btn btn-square btn-outline-light rounded-circle me-1"
+                href=""
+                ><i class="fab fa-twitter"></i
+              ></a> -->
+              <a
+                class="btn btn-square btn-outline-light rounded-circle me-1"
+                href="https://www.facebook.com/quesadillaselgueromx/?locale=es_LA"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <!-- <a
+                class="btn btn-square btn-outline-light rounded-circle me-1"
+                href=""
+                ><i class="fab fa-youtube"></i
+              ></a> -->
+              <a
+                class="btn btn-square btn-outline-light rounded-circle me-0"
+                href="https://www.instagram.com/quesadillas_elguero_/"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Enlaces Rapidos</h4>
+            <a class="btn btn-link" href="about.html">Acerca de nosotros</a>
+            <a class="btn btn-link" href="contact.html">Contactt</a>
+            <a class="btn btn-link" href="product.html">Menu</a>
+            <!-- <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a> -->
+          </div>
+          <!-- <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Our Services</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">Support</a>
+          </div> -->
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Galeria de fotos</h4>
+            <div class="row g-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/producto_1.jpg"
+                  alt="Image"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/producto_2.jpeg"
+                  alt="Image"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/producto_3.jpeg"
+                  alt="Image"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/producto_4.jpeg"
+                  alt="Image"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/menu.jpg"
+                  alt="Image"
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light rounded p-1"
+                  src="img/producto_6.jpg"
+                  alt="Image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Copyright Start -->
+    <div
+      class="container-fluid copyright text-light py-4 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a href="https://nodetek.com.mx/">Nodetek</a>, All Right Reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+            Designed By <a href="https://nodetek.com.mx/">Nodetek</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright End -->
+
+    <!-- Back to Top -->
+    <a
+      href="#"
+      class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
